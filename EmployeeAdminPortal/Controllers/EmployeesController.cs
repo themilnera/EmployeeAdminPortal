@@ -22,10 +22,10 @@ namespace EmployeeAdminPortal.Controllers
             return Ok(dbContext.Employees.ToList()); //200 success OK response
         }
 
-        //[HttpPost]
-        //public IActionResult AddEmployee()
-        //{
+        [HttpPost]
+        public IActionResult AddEmployee()
+        {
 
-        //}
+        }
     }
 }
